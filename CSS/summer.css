@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    background-color: red;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px ;
+    color: white;
+    font-size: 20px;
+}
+.nav{
+    height: 80px;
+    background-color: white;
+    opacity: 0.8;
+    border-bottom: 2px solid black;
+    margin: auto;
+    /* overflow: hidden;    */
+}
+.nav ul {
+    list-style: none;
+    padding-left: 400px;
+    /* margin-top: 42px; */
+    margin: auto;
+    /* display: inline-block; */
+
+}
+.nav ul li{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 2px 8px;
+    font-size:20px ;
+}
+.nav ul li img{
+    width: 50px;
+}
+.nav ul li a{
+    color:black;
+    text-decoration: none;
+
+
+}
+.nav ul li a:hover{
+    border-bottom: 4px solid rgb(235, 125, 125);
+    padding:5px;
+}
+
+
+.bg{
+    background-image: url(../img/bg1.jpg);
+    width: 100%;
+    height:100vh;
+    background-position: -330px;
+    
+}
+.bg h1,h3{
+    color: white;
+    text-align: center;
+} 
+.h1{
+    width: 150px;
+    margin: auto;
+    margin-left: 600px;
+    font-size: 50px;
+    font-weight: 900;
+    display: inline-block;
+    position: relative;
+}
+.bg h3{
+    margin-top: 170px;
+}
+#counter{
+    height: 80vh;
+    margin: auto;
+    margin-left: 300px;
+
+}
+#counter h1{
+    font-size: 50px;
+    text-align: center;
+
+    
+}
+#counter h1::after{
+    width:20px;
+    height: 5px;
+    background-color: green;
+}
+.count1{
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin: auto;
+    border: 2px solid black;
+    margin-left: 60px;
+    background-color: rgba(250, 167, 218, 0.459);
+
+}
+.item{
+    width: 100%;
+    height: 345px;
+    }
+.item1{
+    width: 24%;
+    height: 345px;
+    float: left;
+    
+}
+.item1 img{
+    width: 100%;
+    height: 345px;
+}
+.offer{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.purchase{
+    height: 40vh;
+    background-color: rgb(102, 230, 230);
+}
+#button{
+    margin: auto;
+    margin-left: 580px;
+    
+}
+.btn1{
+    height: 42px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.btn1:hover{
+    background-color: gray;
+    transition: 2s;
+}
+
+.btn2
+{
+    height: 42px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color:transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.btn2:hover{
+    background-color: gray;
+    transition: 2s;
+}
+.payment{
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.card{
+    padding-top: 70px;
+    margin: auto;
+    width: 900px;
+    height: 400px;
+    
+}
+.e-card{
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+}
+.e-card img{
+    width: 80px;
+    height: 40px;
+}
+
+.map{
+    width: 100%;
+    height:66vh;
+    background-color:gray;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+    float: left;
+
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}   
+#FindUs{
+    height: 500px;
+    width: 500px;
+    color: white;
+    float: left;
+    margin-left: 150px;
+}
+#FindUs h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.adress img{
+    width: 40px;
+    padding-top: 20px;
+
+}
+.social img{
+    width: 40px;
+    float: left;
+    padding-left: 40px;
+}
+.social img:hover{
+    color: gray;
+    width: 60px;
+}
+.discount{
+background-color: gray;
+width: 100%;
+height: 50vh;
+}
+.follow{
+float: left;
+width: 40%;
+margin: auto;
+margin-left: 30px;
+margin-top: 40px;
+}
+.follow h1{
+text-align: left;
+padding-left: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(240, 95, 95);
+    float: left;
+    margin-left: 20px;
+}
+.icon img{
+    width:40px;
+    padding: auto;
+    
+}
+.object {
+    width:40% ;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+}
+.object ul li{
+padding-top: 10px;
+}
+    
+
+
+.offer{
+float: left;
+width: 50%;
+margin: auto;
+}
+.new{
+    float: left;
+}
+.text{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(255, 82, 111);
+    color: white;
+    font-size: 20px;
+}
